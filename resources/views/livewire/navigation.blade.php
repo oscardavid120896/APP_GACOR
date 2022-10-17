@@ -49,6 +49,15 @@
                         </form>
                     </x-slot>
                 </x-jet-dropdown>
+            @else
+                <x-jet-dropdown align="right" width="48">
+                    <x-slot name="trigger">
+                    </x-slot>
+
+
+                    <x-slot name="content">
+                    </x-slot>
+                </x-jet-dropdown>
             @endauth
         </div>
     </div>
