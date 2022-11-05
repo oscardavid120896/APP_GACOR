@@ -13,6 +13,10 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+        <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
+
         <!-- Styles -->
         @livewireStyles
     </head>
@@ -32,5 +36,25 @@
         @stack('modals')
 
         @livewireScripts
+
+        <script>
+            function dropdown(){
+                return{
+                    open: false,
+                    show(){
+                        if(this.open){
+                            //Se cierra el menu
+                            this.open = false;
+                            document.getElementsByTagName('html')[0].style.overflow = 'auto'
+                        }else{
+                            //Abre el menu
+                            this.open = true;
+                            document.getElementsByTagName('html')[0].style.overflow = 'hidden'
+                        }
+                    }
+                }
+            }
+        </script>
+
     </body>
 </html>
