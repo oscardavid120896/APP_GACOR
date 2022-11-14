@@ -29,4 +29,8 @@ Route::middleware([
     Route::get('/imc', function () {
         return view('imc');
     })->name('imc');
+
+    Route::get('/mapa', function () {
+        return view('mapaN');
+    })->name('mapa');
 });
