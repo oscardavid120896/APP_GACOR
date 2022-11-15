@@ -33,4 +33,8 @@ Route::middleware([
     Route::get('/mapa', function () {
         return view('mapaN');
     })->name('mapa');
+
+    Route::get('contacto', function () {
+        return view('contacto');
+    });
 });

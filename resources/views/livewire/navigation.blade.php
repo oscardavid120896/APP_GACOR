@@ -90,7 +90,7 @@
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
                         Noticias</li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
-                        Contacto</li>
+                        <a href="contacto">Contacto</li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
                         <a href="/imc"> Calcular IMC</a></li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">

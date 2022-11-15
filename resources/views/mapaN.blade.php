@@ -52,6 +52,7 @@
         <div id="map" style="width: 100%; height: 100%;"></div>
         </div>
     </div>
+    @livewire('footer')
     <script type="text/javascript">
       window.onload = function() {
         L.mapquest.key = 'GrGhhZ7bqifQHdC00kDZMufCZ95US7uo';
