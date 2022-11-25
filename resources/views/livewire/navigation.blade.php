@@ -84,17 +84,17 @@
             class="grid grid-cols-4 h-full relative">
                 <ul class="bg-white">
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
-                        Mi avance</li>
+                        <a href="progreso"><i class="fas fa-heart">&nbsp;&nbsp;</i>Mi progreso</a></li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
-                        Recetas</li>
+                        <a href="recetas"><i class="fas fa-birthday-cake">&nbsp;&nbsp;</i>Recetas</a></li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
-                        Noticias</li>
+                        <i class="fas fa-newspaper">&nbsp;&nbsp;</i>Noticias</li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
-                        <a href="contacto">Contacto</li>
+                        <a href="contacto"><i class="fas fa-envelope-open">&nbsp;&nbsp;</i>Contacto</li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
-                        <a href="/imc"> Calcular IMC</a></li>
+                        <a href="/imc"><i class="fas fa-plus-square">&nbsp;&nbsp;</i>Calcular IMC</a></li>
                     <li class="text-teal-700 hover:bg-emerald-500 hover:text-white py-2 px-4 text-sm flex items-center">
-                        <a href="/mapa"> Mapa Nutriologos</a></li>
+                        <a href="/mapa"><i class="fas fa-map-marker-alt">&nbsp;&nbsp;</i>Mapa Nutriologos</a></li>
                     <div class=" absolute w-3/4 h-full top-0 right-0">
                     
                     </div>

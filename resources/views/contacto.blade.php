@@ -5,7 +5,4 @@
 <div>
     @livewire('footer')
 </div>
-    
-
-    
 </x-app-layout> 

@@ -37,4 +37,12 @@ Route::middleware([
     Route::get('contacto', function () {
         return view('contacto');
     });
+
+    Route::get('recetas', function () {
+        return view('recetas');
+    });
+
+    Route::get('progreso', function () {
+        return view('progreso');
+    });
 });
